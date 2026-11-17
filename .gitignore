@@ -1,5 +1,11 @@
-tft-env/
-.ipynb_checkpoints/
-time-series-prediction/README.md
-time-series-prediction/lightning_logs/version_0
-time-series-prediction/lightning_logs/
+.env*
+!.env.example
+config.local.*
+*.local.*
+secrets/
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+__pycache__/
+.DS_Store
